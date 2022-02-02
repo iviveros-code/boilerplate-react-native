@@ -39,11 +39,13 @@
 # 
 
 # 🚀 How does it works?
-## 🛣 Two ways:
+## 🛣 Three ways:
 
 1- [React Native Rename](https://www.npmjs.com/package/react-native-rename) In the main root, you have to run a command (Pls read the doc) and that's it, your project gonna be renewed. Pay attention, not always works great. Sometimes has some issues in the android folder.
 
 2- Create a new project from `npx react-native init name-project --template https://github.com/iviveros-code/boilerplate-react-native` . Great Option!
+
+3- Maybe you want to visualize in your emulator the flow, for that you have to clone this repo and run `npm install`or `yarn install` and if is iOS `cd ios && pod install & cd ..`, then `npx react-native run-ios` or `npx react-native run-android` o if you use yarn `yarn ios`or `yarn android`.
 
 # 🌳 What structure do I propose?
 
