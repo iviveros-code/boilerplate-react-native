@@ -38,13 +38,10 @@
 
 ***
 # 🚀 How does it works?
-## 🛣 Three ways:
 
-1- [React Native Rename](https://www.npmjs.com/package/react-native-rename) In the main root, you have to run a command (Pls read the doc) and that's it, your project gonna be renewed. Pay attention, not always works great. Sometimes has some issues in the android folder.
+- ***Create a new project from***  `npx react-native init name-project --template https://github.com/iviveros-code/boilerplate-react-native` . Few things to know:
+ The command will fail if you have the global legacy react-native-cli installed. Make sure you uninstall it first.[@react-native-community/cli](https://github.com/react-native-community/cli#about)
 
-2- Create a new project from `npx react-native init name-project --template https://github.com/iviveros-code/boilerplate-react-native` . Great Option!
-
-3- Maybe you want to visualize in your emulator the flow, for that you have to clone this repo and run `npm install`or `yarn install` and if is iOS `cd ios && pod install & cd ..`, then `npx react-native run-ios` or `npx react-native run-android` o if you use yarn `yarn ios`or `yarn android`.
 ***
 # 🌳 What structure do I propose?
 
@@ -56,6 +53,10 @@
 Because you need to be structured at the moment to set up a new project, assets need to be outside the main folder because you don't need extra size. 
 Inside the src main folder, you have some folders with the same "status" like app, config, constants, hooks, services, theme, utils. 
 Inside the app folder, you have components (global re-utilizable components, if the component only affects one specific screen they must be inside the component folder inside the specific screen for example `login/components/Form`. Then have a context, navigation of the entire app and the screens folder.
+And remember one style file by folder. For example =>
+
+![Captura de Pantalla 2022-02-02 a la(s) 16 51 36](https://user-images.githubusercontent.com/51721302/152226696-fcea75ea-8cf0-4f66-8739-3f0ba2e644b2.png)
+
 
 ***
 
