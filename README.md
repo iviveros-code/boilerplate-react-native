@@ -36,7 +36,7 @@
 
 ![image](https://user-images.githubusercontent.com/51721302/152193308-8184b656-799e-4dfd-8d37-041729c730d9.png)
 
-Do you want to hire me? => [LinkedIn](https://www.linkedin.com/in/ivan-viveros/)
+# 
 
 # 🚀 How does it works?
 ## 🛣 Two ways:
