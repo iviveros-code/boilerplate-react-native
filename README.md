@@ -1,12 +1,12 @@
 # ⚛️ Boilerplate-react-native
 
 ### Simple boilerplate to initialize a new project in React Native
-
+***
 ![andoid](https://user-images.githubusercontent.com/51721302/152192878-2534ee93-d114-4d9c-8468-524a38d1caf2.gif)
 ![iPhone13](https://user-images.githubusercontent.com/51721302/152192939-ba807671-c1ff-4144-8ee3-56c93eb7e095.gif)
 ![iPhone8](https://user-images.githubusercontent.com/51721302/152192959-a108b876-2a76-4ee0-aaec-382181321179.gif)
 
-
+---
 ## 🚀 Dependencies :
 
 1. [React Native Paper](https://callstack.github.io/react-native-paper/theming.html) With a Provider of React Native Paper, you can create a simple theme for your entire app.
@@ -36,8 +36,7 @@
 
 ![image](https://user-images.githubusercontent.com/51721302/152193308-8184b656-799e-4dfd-8d37-041729c730d9.png)
 
-# 
-
+***
 # 🚀 How does it works?
 ## 🛣 Three ways:
 
@@ -46,7 +45,7 @@
 2- Create a new project from `npx react-native init name-project --template https://github.com/iviveros-code/boilerplate-react-native` . Great Option!
 
 3- Maybe you want to visualize in your emulator the flow, for that you have to clone this repo and run `npm install`or `yarn install` and if is iOS `cd ios && pod install & cd ..`, then `npx react-native run-ios` or `npx react-native run-android` o if you use yarn `yarn ios`or `yarn android`.
-
+***
 # 🌳 What structure do I propose?
 
 ![Captura de Pantalla 2022-02-02 a la(s) 14 07 30](https://user-images.githubusercontent.com/51721302/152202233-8cc54cd6-7994-4edd-b0cc-399a9aee97f5.png)
@@ -58,6 +57,8 @@ Because you need to be structured at the moment to set up a new project, assets 
 Inside the src main folder, you have some folders with the same "status" like app, config, constants, hooks, services, theme, utils. 
 Inside the app folder, you have components (global re-utilizable components, if the component only affects one specific screen they must be inside the component folder inside the specific screen for example `login/components/Form`. Then have a context, navigation of the entire app and the screens folder.
 
+***
 
+## Thank you so much for reading!! 
 
 
