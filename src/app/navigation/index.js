@@ -1,14 +1,13 @@
 import React from 'react';
-// import {createNativeStackNavigator} from '@react-navigation/native-stack'; // For create an stack navigation
 
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 
 import {OneScreenExample, TwoScreenExample, ThreeScreenExample} from '@screens';
+
 import {NAVIGATION} from '@constants';
 import {TabBar} from './components';
 
 export const Navigation = () => {
-  //   const Stack = createNativeStackNavigator();
   const Tab = createBottomTabNavigator();
   return (
     <Tab.Navigator screenOptions={TabBar}>

@@ -10,7 +10,7 @@ import {styles} from './styles';
 
 export const OneScreenExample = () => {
   const netInfo = useNetInfo();
-
+  
   return (
     <SafeAreaView style={styles.container}>
       <Text style={{fontSize: 20, fontWeight: '700'}}>
@@ -18,7 +18,7 @@ export const OneScreenExample = () => {
       </Text>
       <FastImage source={Images.Splash.Logo} style={styles.image} />
       <Text style={styles.title}>Come on, let's start coding!</Text>
-      {hasNotch ? <Text>This device has notch</Text> : null}
+      {hasNotch() ? <Text>Notch : YES </Text> : <Text>Notch : NO</Text>}
       {Platform.OS === 'android' ? (
         <Text>This is Android</Text>
       ) : (
