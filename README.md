@@ -30,13 +30,32 @@
 
 9. [React Native FastImage](https://github.com/DylanVann/react-native-fast-image) For catching images like browers instead of `<Image />`component from `'react-native'` . Works really well when you need to call heavy images from your backend.
 
-10. [React Native Responsive Screen](https://github.com/marudy/react-native-responsive-screen) When Flex doesn't help you, this library figure out the problem of responsive sizes. You only have to pass a number of porcentage.
+10. [Babel Module Resolver](https://github.com/tleunen/babel-plugin-module-resolver/blob/master/DOCS.md) For global imports like `import {Container} from '@components'` instead of `../../../../../components`
+
+11. [React Native Responsive Screen](https://github.com/marudy/react-native-responsive-screen) When Flex doesn't help you, this library figure out the problem of responsive sizes. You only have to pass a number of porcentage.
 
 ![image](https://user-images.githubusercontent.com/51721302/152193308-8184b656-799e-4dfd-8d37-041729c730d9.png)
 
-## 🚀 How does it works?
-### 🛣 Two ways:
+Do you want to hire me? => [LinkedIn](https://www.linkedin.com/in/ivan-viveros/)
 
-1- [React Native Rename](https://www.npmjs.com/package/react-native-rename)
+# 🚀 How does it works?
+## 🛣 Two ways:
 
-2- Create a new project from `npx react-native init name-project --template https://github.com/iviveros-code/boilerplate-react-native`
+1- [React Native Rename](https://www.npmjs.com/package/react-native-rename) In the main root, you have to run a command (Pls read the doc) and that's it, your project gonna be renewed. Pay attention, not always works great. Sometimes has some issues in the android folder.
+
+2- Create a new project from `npx react-native init name-project --template https://github.com/iviveros-code/boilerplate-react-native` . Great Option!
+
+# 🌳 What structure do I propose?
+
+![Captura de Pantalla 2022-02-02 a la(s) 14 07 30](https://user-images.githubusercontent.com/51721302/152202233-8cc54cd6-7994-4edd-b0cc-399a9aee97f5.png)
+
+
+# ⁇ Why ⁇
+
+Because you need to be structured at the moment to set up a new project, assets need to be outside the main folder because you don't need extra size. 
+Inside the src main folder, you have some folders with the same "status" like app, config, constants, hooks, services, theme, utils. 
+Inside the app folder, you have components (global re-utilizable components, if the component only affects one specific screen they must be inside the component folder inside the specific screen for example `login/components/Form`. Then have a context, navigation of the entire app and the screens folder.
+
+
+
+
