@@ -1,11 +1,18 @@
-# ⚛️ boilerplate-react-native
+# ⚛️ Boilerplate-react-native
 
 ### Simple boilerplate to initialize a new project in React Native
+
+![andoid](https://user-images.githubusercontent.com/51721302/152192878-2534ee93-d114-4d9c-8468-524a38d1caf2.gif)
+![iPhone13](https://user-images.githubusercontent.com/51721302/152192939-ba807671-c1ff-4144-8ee3-56c93eb7e095.gif)
+![iPhone8](https://user-images.githubusercontent.com/51721302/152192959-a108b876-2a76-4ee0-aaec-382181321179.gif)
+
 
 ## 🚀 Dependencies :
 
 1. [React Native Paper](https://callstack.github.io/react-native-paper/theming.html) With a Provider of React Native Paper, you can create a simple theme for your entire app.
-![image](https://user-images.githubusercontent.com/51721302/152176801-f655bacb-a28f-4779-92a5-d8f9ff4271aa.png)
+
+![image](https://user-images.githubusercontent.com/51721302/152193735-986746af-17ab-49e3-98c8-f3885f777a4c.png)
+
 
 2. [React Native Async Storage](https://react-native-async-storage.github.io/async-storage/docs/install/) To save your keys word and utilize that wherever you need.
 
@@ -24,4 +31,12 @@
 9. [React Native FastImage](https://github.com/DylanVann/react-native-fast-image) For catching images like browers instead of `<Image />`component from `'react-native'` . Works really well when you need to call heavy images from your backend.
 
 10. [React Native Responsive Screen](https://github.com/marudy/react-native-responsive-screen) When Flex doesn't help you, this library figure out the problem of responsive sizes. You only have to pass a number of porcentage.
-![image](https://user-images.githubusercontent.com/51721302/152185541-b8e5edb7-dae3-49b4-9454-81f439c83cf6.png)
+
+![image](https://user-images.githubusercontent.com/51721302/152193308-8184b656-799e-4dfd-8d37-041729c730d9.png)
+
+## 🚀 How does it works?
+### 🛣 Two ways:
+
+1- [React Native Rename](https://www.npmjs.com/package/react-native-rename)
+
+2- Create a new project from `npx react-native init name-project --template https://github.com/iviveros-code/boilerplate-react-native`
